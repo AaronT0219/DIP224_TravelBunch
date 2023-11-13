@@ -1,0 +1,93 @@
+.container {
+    min-height: 100vh;
+    background-color: #f4f4f4; /* Use your desired background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container .profile {
+    padding: 20px;
+    background-color: #fff; /* Use your desired background color */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Use your desired box-shadow values */
+    text-align: center;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.container .profile h1 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #333; /* Use your desired text color */
+}
+
+.container .profile form {
+    margin: 15px 0;
+    padding-right: 10px;
+}
+
+.container .profile label {
+    font-size: 16px;
+    color: #555; /* Use your desired label text color */
+}
+
+.container .profile select,
+.container .profile input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc; /* Use your desired border style */
+    border-radius: 5px;
+}
+
+.container .profile button {
+    background-color: #007bff; /* Use your desired button background color */
+    color: #fff; /* Use your desired button text color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.container .profile button:hover {
+    background-color: #0056b3; /* Use your desired button hover color */
+}
+
+.container .profile form #image {
+    width: 90%;
+    padding: 7px;
+    border: 1px solid black;
+    margin: 5px;
+    border-color: #ccc;
+    border-radius: 7px;
+}
+
+.container .profile form textarea{
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    margin: 5px;
+    border-color: #ccc;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.btn-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none; /* Remove underline from the link */
+    border: 1px solid #007bff; /* Add a border to the button */
+    border-radius: 4px; /* Add rounded corners */
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-link:hover {
+    background-color: #0056b3; /* Change the background color on hover */
+}
